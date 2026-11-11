@@ -179,9 +179,6 @@
       white-space: nowrap;
     }
 
-    .nav-prev { color: rgba(255, 255, 255, 0.72); font-size: 13px; font-weight: var(--fw-semibold); white-space: nowrap; transition: color 180ms ease; }
-    .nav-prev:hover { color: #ffffff; }
-
     .nav-cta {
       display: inline-flex;
       align-items: center;
@@ -286,14 +283,6 @@
     .mobile-section-menu a[aria-current="location"] {
       color: #ffffff;
       background: rgba(6, 157, 199, 0.16);
-    }
-
-    .mobile-section-menu .mobile-edition-link {
-      margin-top: 6px;
-      padding-top: 14px;
-      border-top: 1px solid rgba(255, 255, 255, 0.14);
-      border-radius: 0 0 var(--radius-sm) var(--radius-sm);
-      color: #ffffff;
     }
 
     .hero {
@@ -4957,6 +4946,11 @@
       margin-bottom: 8px;
     }
 
+    .footer-prev { margin-top: 12px; display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 4px 12px; font-size: 10.5px; }
+    .footer-prev span { color: rgba(255, 255, 255, 0.45); text-transform: uppercase; letter-spacing: .12em; font-size: 9.5px; font-weight: var(--fw-bold); width: 100%; text-align: inherit; }
+    .footer-prev a { color: rgba(255, 255, 255, 0.78); text-decoration: underline; text-underline-offset: 3px; }
+    .footer-prev a:hover { color: #20b7dc; }
+
     .footer-edition-desc {
       font-size: 10.5px;
       color: rgba(255, 255, 255, 0.62);
@@ -7545,7 +7539,6 @@
         <a href="#client-referrals">Referrals</a>
       </div>
       <div class="nav-side">
-        <a class="nav-prev" href="https://theshawncraig-a11y.github.io/Agent-Edge-October-2026/">Previous Edition</a>
         <a class="nav-cta" href="https://cincsummit.com/products/december-2026-cinc-university-atlanta" target="_blank" rel="noopener">CINC U Registration</a>
       </div>
     </nav>
@@ -7561,7 +7554,6 @@
         <a href="#issue-cta">2027 Training</a>
         <a href="#latest-cinc-articles">Resources</a>
         <a href="#client-referrals">Referrals</a>
-        <a class="mobile-edition-link" href="https://theshawncraig-a11y.github.io/Agent-Edge-October-2026/">Previous Edition: October 2026</a>
       </div>
     </nav>
 
@@ -8107,6 +8099,7 @@
         <div class="footer-col">
           <div class="footer-edition">November 2026 Edition</div>
           <div class="footer-edition-desc">Published monthly for CINC<br>Agents and Team Leaders.</div>
+          <div class="footer-prev"><span>Previous Editions</span><a href="https://theshawncraig-a11y.github.io/Agent-Edge-October-2026/" target="_blank" rel="noopener">October 2026</a><a href="https://theshawncraig-a11y.github.io/Agent-Edge-September-2026/" target="_blank" rel="noopener">September 2026</a></div>
         </div>
       </div>
       <div class="footer-bottom">
